@@ -495,7 +495,7 @@ under the License.
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.4</version>
+      <version>3.5</version>
     </dependency>
 
     <dependency>
@@ -624,6 +624,7 @@ under the License.
                 <maven.compiler.source>${maven.compiler.source}</maven.compiler.source>
                 <maven.compiler.target>${maven.compiler.target}</maven.compiler.target>
               </properties>
+              <javaHome>${java.home}</javaHome>
             </configuration>
           </plugin>
           <plugin>
